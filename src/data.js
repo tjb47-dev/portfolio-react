@@ -7,8 +7,17 @@ import {
   FaGitAlt,
   FaGithubSquare,
   FaLink,
+  FaMdb,
+  FaNodeJs,
+  FaLaravel,
+  FaSass,
+  FaNpm,
+  FaPhp,
+  FaCode,
+  FaDatabase
+
 } from "react-icons/fa";
-import { SiJavascript, SiStyledcomponents, SiRedux } from "react-icons/si";
+import { SiJavascript, SiStyledcomponents, } from "react-icons/si";
 
 // Projects Images (add your images to the images directory and import below)
 import Logo from "./images/logo.svg";
@@ -73,8 +82,8 @@ export const skillData = [
   },
   {
     id: 7,
-    skill: <SiRedux className="display-4" />,
-    name: "Redux",
+    skill: <FaLaravel className="display-4" />,
+    name: "Laravel",
   },
   {
     id: 8,
@@ -85,6 +94,41 @@ export const skillData = [
     id: 9,
     skill: <FaGithubSquare className="display-4" />,
     name: "GitHub",
+  },
+  {
+    id: 10,
+    skill: <FaMdb className="display-4" />,
+    name: "MongoDB",
+  },
+  {
+    id: 11,
+    skill: <FaNodeJs className="display-4" />,
+    name: "Node.js",
+  },
+  {
+    id: 12,
+    skill: <FaSass className="display-4" />,
+    name: "Sass",
+  },
+  {
+    id: 13,
+    skill: <FaNpm className="display-4" />,
+    name: "npm",
+  },
+  {
+    id: 14,
+    skill: <FaPhp className="display-4" />,
+    name: "PHP",
+  },
+  {
+    id: 15,
+    skill: <FaCode className="display-4" />,
+    name: ".lua",
+  },
+  {
+    id: 16,
+    skill: <FaDatabase className="display-4" />,
+    name: "SQL",
   },
 ];
 
