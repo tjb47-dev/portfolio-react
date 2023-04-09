@@ -82,9 +82,6 @@ export default function Hero() {
       <Container>
         <Row className="align-items-center text-center">
           <Col>
-            <div className="d-flex align-items-center justify-content-center">
-              <SocialLinks />
-            </div>
           </Col>
           <Col className="d-none d-md-block">
             <img
