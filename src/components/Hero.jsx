@@ -1,5 +1,3 @@
-import { useSelector } from "react-redux";
-import { selectData } from "../pages/homeSlice";
 import { Link } from "react-scroll";
 import styled from "styled-components";
 // Icons
@@ -77,14 +75,13 @@ const StyledHero = styled.header`
 `;
 
 export default function Hero() {
-  const { name } = useSelector(selectData);
+  
 
   return (
     <StyledHero>
       <Container>
         <Row className="align-items-center text-center">
           <Col>
-            <h1 className="mb-3 display-3 title">{name}</h1>
             <div className="d-flex align-items-center justify-content-center">
               <SocialLinks />
             </div>
