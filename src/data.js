@@ -14,10 +14,9 @@ import {
   FaNpm,
   FaPhp,
   FaCode,
-  FaDatabase
 
 } from "react-icons/fa";
-import { SiJavascript, SiStyledcomponents, } from "react-icons/si";
+import { SiJavascript, SiStyledcomponents, SiRedux, SiMysql, } from "react-icons/si";
 
 // Projects Images (add your images to the images directory and import below)
 import Logo from "./images/logo.svg";
@@ -127,8 +126,13 @@ export const skillData = [
   },
   {
     id: 16,
-    skill: <FaDatabase className="display-4" />,
-    name: "SQL",
+    skill: <SiMysql className="display-4" />,
+    name: "MySQL",
+  },
+  {
+    id: 17,
+    skill: <SiRedux className="display-4" />,
+    name: "Redux",
   },
 ];
 
