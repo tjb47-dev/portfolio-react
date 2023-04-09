@@ -7,32 +7,32 @@ import { GiSunflower, GiMoon } from "react-icons/gi";
 import { FaChevronCircleUp } from "react-icons/fa";
 
 // Animations
-export const Spin = keyframes`
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-`;
+// export const Spin = keyframes`
+//   from {
+//     transform: rotate(0deg);
+//   }
+//   to {
+//     transform: rotate(360deg);
+//   }
+// `;
 
-const spinner = keyframes`
-    to {
-        transform: rotate(360deg)
-    }
-`;
+// const spinner = keyframes`
+//     to {
+//         transform: rotate(360deg)
+//     }
+// `;
 
 // Loading Spinner
-export const Loading = styled.div`
-  display: inline-block;
-  width: 5rem;
-  height: 5rem;
-  border: 5px solid;
-  border-radius: 50%;
-  border-top-color: var(--primary);
-  margin: 1rem auto;
-  animation: ${spinner} 0.6s linear infinite;
-`;
+// export const Loading = styled.div`
+//   display: inline-block;
+//   width: 5rem;
+//   height: 5rem;
+//   border: 5px solid;
+//   border-radius: 50%;
+//   border-top-color: var(--primary);
+//   margin: 1rem auto;
+//   animation: ${spinner} 0.6s linear infinite;
+// `;
 
 // Spacer for fixed Navigation bar
 export const FixedNavSpacer = styled.div`

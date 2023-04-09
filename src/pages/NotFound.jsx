@@ -6,7 +6,7 @@ import styled from "styled-components";
 import Logo from "../images/logo.svg";
 // Components
 import { Container } from "react-bootstrap";
-import { Spin } from "../components/globalStyledComponents";
+// import { Spin } from "../components/globalStyledComponents";
 import NotFoundNavBar from "../components/SecondaryNavBar";
 
 const StyledNotFound = styled.main`
@@ -28,11 +28,7 @@ const StyledNotFound = styled.main`
     width: 10rem;
   }
 
-  @media (prefers-reduced-motion: no-preference) {
-    img {
-      animation: ${Spin} infinite 20s linear;
-    }
-  }
+
 `;
 
 export default function NotFound() {

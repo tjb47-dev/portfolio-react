@@ -61,7 +61,7 @@ export default function App() {
       <ThemeProvider theme={themes[theme]}>
         <GlobalStyles />
         <Container className="d-flex vh-100 align-items-center">
-          <Loading />
+          {/* <Loading /> */}
         </Container>
       </ThemeProvider>
     );

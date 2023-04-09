@@ -19,7 +19,7 @@ import {
 import {
   BackToTop,
   Title,
-  Loading,
+  // Loading,
 } from "../components/globalStyledComponents";
 import SecondaryNavBar from "../components/SecondaryNavBar";
 import StyledCard from "../components/StyledCard";
@@ -139,7 +139,7 @@ export default function AllProjects() {
                 <div className="underline"></div>
               </Title>
             </Container>
-            <Loading />
+            {/* <Loading /> */}
           </StyledSection>
         </main>
         <Footer />

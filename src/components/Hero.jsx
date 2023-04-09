@@ -9,7 +9,7 @@ import Logo from "../images/logo.svg";
 import { Light, Dark } from "../data";
 // Components
 import { Col, Container, Row } from "react-bootstrap";
-import { Spin } from "./globalStyledComponents";
+// import { Spin } from "./globalStyledComponents";
 import SocialLinks from "./SocialLinks";
 
 const StyledHero = styled.header`
@@ -53,11 +53,7 @@ const StyledHero = styled.header`
     height: 10rem;
   }
 
-  @media (prefers-reduced-motion: no-preference) {
-    .hero-img {
-      animation: ${Spin} infinite 20s linear;
-    }
-  }
+
 
   @media screen and (min-width: 1180px) {
     &::before {

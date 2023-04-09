@@ -15,7 +15,7 @@ import { filteredProjects } from "../data";
 import { FaGithub } from "react-icons/fa";
 // Components
 import { Button, Col, Container, Row } from "react-bootstrap";
-import { Title, Loading } from "./globalStyledComponents";
+import { Title, } from "./globalStyledComponents";
 import StyledCard from "./StyledCard";
 
 const StyledSection = styled.section``;
@@ -57,7 +57,7 @@ export default function Projects() {
           </Container>
           {isLoading && (
             <Container className="d-flex">
-              <Loading />
+              {/* <Loading /> */}
             </Container>
           )}
           {error && <h2 className="text-center">{error}</h2>}
