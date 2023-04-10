@@ -28,6 +28,12 @@
   color: #61dafb;
 }
 
+.d-none d-md-block {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
