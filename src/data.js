@@ -42,7 +42,7 @@ export const Blog = <FaLink />;
   Add a second paragraph for the about me section.
 */
 export const moreInfo =
-  "I enjoy learning about technology and helping others use it to improve their lives and be more productive. I built this site with React, React Bootstrap, Redux, and the GitHub REST API.";
+  "As a lifelong technology enthusiast with a passion for coding, I am constantly exploring new technologies to develop my skills further. I enjoy combining my love for video games with my coding skills by modding various games and even starting my own gaming server that runs .lua and .js.";
 
 /* Skills
  ************************************************************** 
