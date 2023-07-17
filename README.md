@@ -23,7 +23,7 @@ Home to my portfolio to showcase my work.
 
 ## Screenshots
 
-![App Screenshot]([https://via.placeholder.com/468x300?text=App+Screenshot+Here](https://github.com/tjb47-dev/portfolio-react/blob/main/src/images/screenshot.png?raw=true)https://github.com/tjb47-dev/portfolio-react/blob/main/src/images/screenshot.png?raw=true)
+![App Screenshot](https://raw.githubusercontent.com/tjb47-dev/portfolio-react/main/src/images/screenshot.png)
 
 
 ## License
